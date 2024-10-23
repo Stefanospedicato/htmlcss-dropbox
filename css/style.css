@@ -25,7 +25,7 @@ border: 1px solid black;
 header{
   position: fixed;
   background-color: white;
-  height: 80px;
+  height: 90px;
   width: 100%;
   top: 0;
   left: 0;
@@ -113,13 +113,15 @@ header a:hover{
 
 .col.titolone{
   width: 100%;
-  font-size: 5.5rem;
+  font-size: 5rem;
   font-weight: bold;
 }
 
 .jumbotrom .testo{
+  position: relative;
   width: 40%;
-  padding-top: 50px
+  padding-top: 50px;
+  height: 400px;
 }
 
 .jumbotrom .testo button{
@@ -140,4 +142,10 @@ header a:hover{
 
 .jumbotrom img{
   width: 750px;
+}
+
+.arrow{
+  font-size: 4rem;
+  position: absolute;
+  bottom: 0;
 }
