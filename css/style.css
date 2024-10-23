@@ -103,8 +103,12 @@ header a:hover{
   align-items: center;
 }
 
+.container{
+  max-width: 1000px;
+}
+
 .container-j{
-  width: 1250px;
+  max-width: 1250px;
   min-height: 620px;
   position: absolute;
   top: 150px;
@@ -115,6 +119,12 @@ header a:hover{
   width: 100%;
   font-size: 5rem;
   font-weight: bold;
+}
+
+.titolo-main{
+  margin-top: 210px;
+  font-size: 3rem;
+  font-weight: bolder;
 }
 
 .jumbotrom .testo{
@@ -148,4 +158,39 @@ header a:hover{
   font-size: 4rem;
   position: absolute;
   bottom: 0;
+}
+
+.blue{
+  color: #0061FE;
+}
+
+.grey{
+  color: #E5E5E7;
+
+}
+
+.opzioni{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.opzioni span:first-child{
+  margin-right: 40px;
+}
+
+.container .row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .row .col{
+  width:300px;
+  border: 1px solid #E5E5E7 ;
+  margin-right: 30px;
+}
+
+.col-2{
+  padding: 15px;
+  justify-content: center;
+  text-align: center;
 }
