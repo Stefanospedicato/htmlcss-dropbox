@@ -41,6 +41,12 @@ header .container{
   flex-wrap: wrap;
 }
 
+.row.big{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
 
 .justify-center{
   justify-content: center;
@@ -109,15 +115,21 @@ header a:hover{
   max-width: 1000px;
 }
 
-main .col ul{
+main .col .lista{
   list-style: none;
   padding-top: 50px;
+}
+
+main .col ul{
+  list-style: none;
+  padding-top: 20px;
 }
 
 main .col ul li{
   padding-top: 15px;
   font-size: 1rem;
 }
+
 
 .container-j{
   max-width: 1250px;
@@ -200,7 +212,10 @@ main .col ul li{
   border: 1px solid #E5E5E7 ;
   margin-right: 30px;
 }
-
+.col-sol{
+  width: 1000px;
+  border: 1px solid #E5E5E7 ;
+}
 .col-2{
   padding: 15px;
   justify-content: center;
@@ -212,7 +227,7 @@ main .col ul li{
   padding-top: 40px;
   padding-left: 30px;
   padding-right: 30px;
-  height: 910px;
+  height: 950px;
 }
 
 .col-3 h3{
@@ -225,7 +240,7 @@ main .col ul li{
 
 .col-3 .lista-end{
   padding-top:50px;
-  padding-bottom: 35px;
+  padding-bottom: 30px;
 }
 
 .opacity{
@@ -244,4 +259,40 @@ main .col ul li{
 
 .col-3 .acquista{
   padding-bottom: 40px;
+}
+
+.col-5{
+  position: relative;
+  height: 215px;
+}
+
+.col-5 h3{
+  padding-left: 20px;
+  padding-top: 35px;
+
+}
+
+.col-5 h5{
+  padding-left: 20px;
+  padding-top: 20px;
+
+}
+
+.col-5 p{
+  padding-left: 20px;
+  padding-top: 60px;
+
+}
+.col-6{
+  width: 70%;
+}
+
+.col-7 .btn{
+  position: absolute;
+  top: 35px;
+  right: 35px;
+}
+
+.blue{
+  color: #0061FE;
 }
