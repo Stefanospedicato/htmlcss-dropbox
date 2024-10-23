@@ -13,6 +13,9 @@ body{
 max-width: 1250px;
 margin: 0 auto;
 }
+.d-flex{
+  display: flex;
+}
 
 .debug{
 background-color: rgba(112, 211, 211, .5);
@@ -60,6 +63,15 @@ header ul{
   list-style: none;
 }
 
+header a{
+  text-decoration: none;
+  color: black;
+}
+
+header a:hover{
+  text-decoration: underline;
+}
+
 .logo{
   width: 145px;
 }
@@ -68,9 +80,58 @@ header ul{
   color: white;
   padding: 10px 20px;
   background-color: #0061FE;
+  border-color: #0061FE;
+  font-size: 1.4rem;
+}
+
+.btn.j{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .text-right{
   text-align: right;
 }
 
+/* ******* MAIN ********* */
+
+.jumbotrom{
+  position: relative;
+  background-color: #B4D0E6;
+  min-height: 740px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-j{
+  width: 1250px;
+  min-height: 620px;
+  position: absolute;
+  top: 150px;
+
+}
+
+.col.titolone{
+  width: 100%;
+  font-size: 5.5rem;
+  font-weight: bold;
+}
+
+.jumbotrom .testo{
+  width: 40%;
+}
+.jumbotrom .imgj{
+  width: 60%;
+ 
+
+}
+
+.img-jumbo{
+  position: relative;
+  bottom: 60px;
+  left: 35px; 
+}
+
+.jumbotrom img{
+  width: 750px;
+}
