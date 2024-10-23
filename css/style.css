@@ -47,6 +47,9 @@ header .container{
   margin-top: 50px;
 }
 
+.row.partner{
+  margin-top: 220px;
+}
 
 .justify-center{
   justify-content: center;
@@ -170,8 +173,8 @@ main .col ul li{
 
 .img-jumbo{
   position: relative;
-  bottom: 60px;
-  left: 35px; 
+  top: 50px;
+  left:0; 
 }
 
 .jumbotrom img{
@@ -205,12 +208,12 @@ main .col ul li{
 .container .row{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .container .row .col{
   width:300px;
   border: 1px solid #E5E5E7 ;
-  margin-right: 30px;
 }
 .col-sol{
   width: 1000px;
@@ -280,7 +283,7 @@ main .col ul li{
 
 .col-5 p{
   padding-left: 20px;
-  padding-top: 60px;
+  padding-top: 45px;
 
 }
 .col-6{
@@ -291,6 +294,41 @@ main .col ul li{
   position: absolute;
   top: 35px;
   right: 35px;
+}
+
+.col-8{
+  width: 60%;
+}
+
+.col-8 img{
+  width: 100%;
+}
+
+.col-9{
+  width: 40%;
+  padding-left: 70px;
+  padding-top: 40px;
+}
+
+.col-9 h3{
+  padding-bottom: 15px;
+}
+
+.col-9 p{
+  padding-bottom: 15px;
+}
+
+.col-9 a{
+  background-color: white;
+  border-color: black;
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding :10px;
+}
+
+.col-9 p{
+  margin-top: 20px;
 }
 
 .blue{
