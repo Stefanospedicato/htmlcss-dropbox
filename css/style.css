@@ -57,6 +57,7 @@ header .container{
 header li{
   display: inline-block;
   padding: 25px;
+
 }
 
 header ul{
@@ -81,7 +82,8 @@ header a:hover{
   padding: 10px 20px;
   background-color: #0061FE;
   border-color: #0061FE;
-  font-size: 1.4rem;
+  font-size: 1rem;
+  text-align: center;
 }
 
 .btn.j{
@@ -114,6 +116,7 @@ main .col ul{
 
 main .col ul li{
   padding-top: 15px;
+  font-size: 1rem;
 }
 
 .container-j{
@@ -208,6 +211,7 @@ main .col ul li{
 .col-3{
   padding-top: 40px;
   padding-left: 30px;
+  padding-right: 30px;
   height: 910px;
 }
 
@@ -216,9 +220,28 @@ main .col ul li{
 }
 
 .col-3 h5{
-  padding-bottom: 50px;
+  padding-bottom: 20px;
+}
+
+.col-3 .lista-end{
+  padding-top:50px;
+  padding-bottom: 35px;
 }
 
 .opacity{
   color: rgba(0, 0, 0, .5);
+  font-size: 0.8rem;
+}
+
+.col-3 .btn{
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+
+.col-3 p a{
+  color: #0061FE;
+}
+
+.col-3 .acquista{
+  padding-bottom: 40px;
 }
