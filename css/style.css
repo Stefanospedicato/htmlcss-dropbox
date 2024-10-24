@@ -150,7 +150,7 @@ main .col ul li{
 
 .titolo-main{
   margin-top: 210px;
-  font-size: 3rem;
+  font-size: 2.9rem;
   font-weight: bolder;
 }
 
@@ -215,10 +215,29 @@ main .col ul li{
   width:300px;
   border: 1px solid #E5E5E7 ;
 }
+
+.row.cards{
+  padding-top: 40px;
+}
+
 .col-sol{
   width: 1000px;
   border: 1px solid #E5E5E7 ;
 }
+
+.col-card{
+  width: 300px;
+  padding-top: 60px;
+}
+
+.col-card h4{
+  padding-bottom: 35px;
+}
+
+.col-card img{
+  width: 300px;
+}
+
 .col-2{
   padding: 15px;
   justify-content: center;
@@ -333,4 +352,9 @@ main .col ul li{
 
 .blue{
   color: #0061FE;
+}
+
+.container.epilogo div:last-child{
+  padding-top: 65px;
+  padding-bottom: 185px;
 }
