@@ -4,23 +4,66 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   font-family: sans-serif;
   font-size: 1.3rem;
+}
+
+/* UTILI */
+
+hr{
+  width: 50px;
+}
+
+i{
+  padding-right: 5px;
+}
+
+.blue{
+  color: #0061FE;
+}
+
+.grey{
+  color: #E5E5E7;
+
+}
+
+.opacity{
+  color: rgba(0, 0, 0, .5);
+  font-size: 0.8rem;
 }
 
 .container{
 max-width: 1250px;
 margin: 0 auto;
 }
+
 .d-flex{
   display: flex;
 }
 
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-right{
+  text-align: right;
+}
+
 /* .debug{
-background-color: rgba(112, 211, 211, .5);
-border: 1px solid black;
-} */
+  background-color: rgba(112, 211, 211, .5);
+  border: 1px solid black;
+  } */
+  
+
+/* /UTILI */
+
+/* ******* HEADER ******** */
 
 header{
   position: fixed;
@@ -31,35 +74,30 @@ header{
   left: 0;
   z-index: 100;
 }
-
+  
 header .container{
-  width: 100%;
+    width: 100%;
 }
-
-.row{
-  display: flex;
-  flex-wrap: wrap;
-}
-
+  
 header .row{
   justify-content: space-between;
   align-items: center;
 }
-
+  
 .row.big{
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
 }
-
+  
 .row.partner{
-  margin-top: 220px;
+    margin-top: 220px;
 }
-
+  
 header li{
   display: inline-block;
   padding: 25px;
-
+    
 }
 
 header ul{
@@ -77,7 +115,7 @@ header li.underline{
 }
 
 header li.underline:hover{
-border-bottom: 4px solid black;
+  border-bottom: 4px solid black;
 }
 
 .logo{
@@ -89,15 +127,13 @@ border-bottom: 4px solid black;
   border: transparent;
   border-radius: 10%;
   padding: 25px;
- 
-  
 }
 
 .arrow a:hover{
   box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
 }
 
-
+/* BOTTONI */
 
 .btn{
   color: white;
@@ -118,11 +154,13 @@ border-bottom: 4px solid black;
   margin-bottom: 20px;
 }
 
-.text-right{
-  text-align: right;
-}
+/* /BOTTONI */
+
+/* ******* /HEADER ******* */
+
 
 /* ******* MAIN ********* */
+
 
 .jumbotrom{
   position: relative;
@@ -205,15 +243,6 @@ main .col ul li{
   bottom: 0;
 }
 
-.blue{
-  color: #0061FE;
-}
-
-.grey{
-  color: #E5E5E7;
-
-}
-
 .opzioni{
   margin-top: 70px;
   margin-bottom: 70px;
@@ -243,13 +272,6 @@ main .col ul li{
   border: 1px solid #E5E5E7 ;
 }
 
-hr{
-  width: 50px;
-}
-
-i{
-  padding-right: 5px;
-}
 
 .col-card{
   width: 300px;
@@ -292,10 +314,6 @@ i{
   padding-bottom: 30px;
 }
 
-.opacity{
-  color: rgba(0, 0, 0, .5);
-  font-size: 0.8rem;
-}
 
 .col-prof .btn{
   margin-top: 50px;
@@ -375,10 +393,6 @@ i{
 
 .col-par p{
   margin-top: 20px;
-}
-
-.blue{
-  color: #0061FE;
 }
 
 .container.epilogo div:last-child{
