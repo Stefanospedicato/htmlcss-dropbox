@@ -12,4 +12,6 @@ Anche in questo caso non ho ancora trovato soluzione per l'animazione della frec
 - Continuo con la seconda sezione del main, quella delle "tabelle".
 Sono riuscito a completare tutto, manca solo l'allineamento delle icone al testo, forse posso usare il before, non saprei, ma per non perdere troppo tempo sui dettagli ho continuato il lavoro.
 - Ho poi completato la sezione dei partner, con non troppe difficoltà, era praticamente il lavoro fatto sulla pagina Discord.
-- 
+- Sono passato alle card e ho intrapreso la stessa strada che avevo utilizzato sul progetto Boolando. Ho quindi creato la solita row con le colonne e ho inserito il contenuto adattando le proporzioni.
+- Ho creato l'epigolo del main con un semplice h2 e un p.
+- Sono passato al footer e ho creato anche qui 5 colonne e ho disposto gli elementi all'interno come da screen.S
