@@ -207,13 +207,10 @@ main .col ul li{
 
 .blue{
   color: #0061FE;
-
-
 }
 
 .grey{
   color: #E5E5E7;
-
 
 }
 
@@ -248,8 +245,10 @@ main .col ul li{
 
 hr{
   width: 50px;
-  
+}
 
+i{
+  padding-right: 5px;
 }
 
 .col-card{
