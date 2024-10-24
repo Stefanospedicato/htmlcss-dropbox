@@ -14,4 +14,6 @@ Sono riuscito a completare tutto, manca solo l'allineamento delle icone al testo
 - Ho poi completato la sezione dei partner, con non troppe difficoltà, era praticamente il lavoro fatto sulla pagina Discord.
 - Sono passato alle card e ho intrapreso la stessa strada che avevo utilizzato sul progetto Boolando. Ho quindi creato la solita row con le colonne e ho inserito il contenuto adattando le proporzioni.
 - Ho creato l'epigolo del main con un semplice h2 e un p.
-- Sono passato al footer e ho creato anche qui 5 colonne e ho disposto gli elementi all'interno come da screen.S
+- Sono passato al footer e ho creato anche qui 5 colonne e ho disposto gli elementi all'interno come da screen.
+- Ho aggiunto gli hover sulla topbar e sui bottoni.
+- Ho aggiunto l'ancora alla freccia, ma non riesco a darle una sorta di scorrimento, si teletrasporta la pagina e basta.
