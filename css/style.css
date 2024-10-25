@@ -193,8 +193,8 @@ main .col ul li{
 .container-j{
   max-width: 1250px;
   min-height: 620px;
-  position: absolute;
-  top: 150px;
+  position: relative;
+  top: 100px;
 
 }
 
@@ -259,7 +259,7 @@ main .col ul li{
 }
 
 .container .row .col{
-  width:300px;
+  width:30%;
   border: 1px solid #E5E5E7 ;
 }
 
