@@ -177,6 +177,7 @@ header li.underline:hover{
 main .col .lista{
   list-style: none;
   padding-top: 50px;
+  text-indent: -1.5em;
 }
 
 main .col ul{
@@ -274,7 +275,7 @@ main .col ul li{
 
 
 .col-card{
-  width: 300px;
+  width: 30%;
   padding-top: 60px;
 }
 
